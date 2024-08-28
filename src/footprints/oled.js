@@ -18,7 +18,7 @@ module.exports = {
       (fp_text value "" (at 0 -7.3) (layer F.Fab) (effects (font (size 1 1) (thickness 0.15))))
 
       ${'' /* pins */}
-      (pad 1 thru_hole oval (at -3.62 -10.6 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.VCC})
+      (pad 1 thru_hole rect (at -3.62 -10.6 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.VCC})
       (pad 2 thru_hole oval (at -1.08 -10.6 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.GND})
       (pad 3 thru_hole oval (at 1.46 -10.6 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.SCL})
       (pad 4 thru_hole oval (at 4 -10.6 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.SDA})
