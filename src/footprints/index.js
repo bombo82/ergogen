@@ -7,6 +7,7 @@ module.exports = {
     jstph: require('./jstph'),
     jumper: require('./jumper'),
     mx: require('./mx'),
+    niceview: require('./niceview'),
     oled: require('./oled'),
     omron: require('./omron'),
     pad: require('./pad'),
