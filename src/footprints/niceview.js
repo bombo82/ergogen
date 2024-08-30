@@ -19,16 +19,11 @@ module.exports = {
       (fp_text value "" (at 0 0) (layer F.SilkS) hide (effects (font (size 1 1) (thickness 0.15))))
 
       ${'' /* pins */}
-      (pad 5 thru_hole oval (at 0.0 -5.08 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      ${p.SDA.str})
-      (pad 4 thru_hole oval (at 0.0 -2.54 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      ${p.SCL.str})
-      (pad 3 thru_hole oval (at 0.0  0.00 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      ${p.VCC.str})
-      (pad 2 thru_hole oval (at 0.0  2.54 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      ${p.GND.str})
-      (pad 1 thru_hole rect (at 0.0  5.08 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
-      ${p.CS.str})
+      (pad 5 thru_hole oval (at 0.0 -5.08 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.SDA.str})
+      (pad 4 thru_hole oval (at 0.0 -2.54 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.SCL.str})
+      (pad 3 thru_hole oval (at 0.0  0.00 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.VCC.str})
+      (pad 2 thru_hole oval (at 0.0  2.54 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.GND.str})
+      (pad 1 thru_hole rect (at 0.0  5.08 ${p.rot + 270}) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask) ${p.CS.str})
     `
 
     function outline() {
